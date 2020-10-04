@@ -1,0 +1,31 @@
+SOAL;PILIHAN A;PILIHAN B;PILIHAN C;PILIHAN D;PILIHAN E;KUNCI JAWABAN;PEMBAHASAN
+3, 6, 10, 13, 17, …;20;21;23;22;;b;Irama pada seri angka tersebut adalah +3, +4, +3, +4. Maka kelanjutannya adalah 21 (B)
+7, 2, 9, 11, 20, …;31;30;29;28;;a;Pola deretan Fibonacci. Maka kelanjutannya adalah 31 (A)
+19, 17, 15, 21, 18, 12, 23, …;19;25;9;11;;a;Setiap irama bilangan meloncat 3 dengan pola tertentu. Pada titik yang kosong merupakan irama dari kelanjutan 17, 18, yaitu 19 (A)
+1/4, 1/8, 1/9, 1/16, …;1/18.;1/21.;1/24.;1/25.;;d;Bilangan penyebut pada irama bilangan pecahan urutan ganjil adalah irama bilangan kuadrat, sehingga pada titik yang kosong adalah 1/25 (D)
+1/4, 1/4, 1/8, 1/16, 1/16, 1/32, …, …;1/32, 1/48;1/48, 1/48;1/64, 1/64;1/48, 1/64;;c;Bilangan penyebut nomor urut 1, 2, 4, 5, 7, 8, dst merupakan sepasang bilangan kelipatan 4, sehingga pada titik yang kosong adalah 1/64, 1/64 (C)
+2, 3, 4, 2, 6, 8, 2, 18, 24, …, …;2, 72;2, 96;72, 96;48, 72;;a;Angka “2” hanya sebagai jeda, sedangkan angka yang lain memiliki pola 3, 4 (x2) 6, 8 (x3) 18, 24 (x4) 72, 96. Sehingga yang dimasukkan ke dalam titik adalah 2, 72 (A)
+20, 60, 64, 16, 48, 52, …, …;14, 42;14, 39;13, 42;13, 39;;d;Memiliki pola 20  (x3)  60  (+4)  64  (:4)  16  (x3)  48  (+4)  52  (:4)  13  (x3)  39 (D)
+155, 32, 9, 4, 3, …;2;3;4;5;;c;Pola irama bilangan tersebut adalah (n1), ((n1:5) +1), ((n2:4) +1), ((n3:3) + 1), ((n4:2) + 1), ((n5:1) + 1) sehingga pada titik yang kosong yaitu 4. (C)
+2, 12, 42, 132, 402, …;1212;1232;1222;1223;;a;Pola irama bilangan tersebut adalah (n1), ((n1+2) x 3), ((n2 +2) x 3), ((n3+2) x 3), ((n4+2) x 3), ((n5+2) x 3) sehingga pada titik yang kosong yaitu 1212 (A)
+3, 3, 5, 11, 23, 43, …;67;71;69;73;;d;(n1-1+{ 1 }^{ 2 }),(n2–2+{ 2 }^{ 2 }),(n3–3+{ 3 }^{ 2 }),(n4–4+{ 4 }^{ 2 }),(n5–5+{ 5 }^{ 2 }),(n6–6+{ 6 }^{ 2 })
+2, 4, 10, 22, 42, 72, …;106;108;110;112;;b;(n1+1+{ 1 }^{ 2 }),(n2+2+{ 2 }^{ 2 }),(n3+3+{ 3 }^{ 2 }),(n4+4+{ 4 }^{ 2 }),(n5+5+{ 5 }^{ 2 }),(n6+6+{ 6 }^{ 2 })
+8, 32, 97, 196, 199, …;4;210;6;203;;a;Pola irama bilangan tersebut adalah (n1), ((n1 x 4) + 0), ((n2 x 3) + 1), ((n3 x 2) + 2), ((n4x1) + 3), ((n5 x 0) + 4) sehingga pada titik yang kosong adalah 4 (A)
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;

@@ -1,0 +1,40 @@
+/* Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+*/
+.blue{
+    background-color: #3490dc;
+    color: white;
+}
+.purple{
+    background-color: #9561e2;
+    color: white;
+}
+.green{
+    background-color: #38c172;
+    color: white;
+}
+.yellow{
+    background-color: #ffed4a;
+    color: white;
+}
+.orange{
+    background-color: #f6993f;
+    color: white;
+}
+.pink{
+    background-color: #f66d9b;
+    color: white;
+}
+.indigo{
+    background-color: #6574cd;
+    color: white;
+}

@@ -1,0 +1,31 @@
+SOAL;PILIHAN A;PILIHAN B;PILIHAN C;PILIHAN D;PILIHAN E;KUNCI JAWABAN;PEMBAHASAN
+10 orang finalis suatu lomba kecantikan akan dipilih secara acak 3 yang terbaik. Banyak cara pemilihan tersebut ada … cara.;70;80;120;360;;c;"{ _{ n }{ c }_{ r } }=n!/(n-r)!.r! ; { _{ 10 }P_{ 3 } }"
+Banyaknya bilangan antara 2000 dan 6000 yang dapat disusun dari angka 0,1,2,3,4,5,6,7, dan tidak ada angka yang sama adalah ….;1680;1470;1260;840;;d;
+Dari kota A ke kota B dilayani oleh 4 bus dan dari B ke C oleh 3 bus. Seseorang berangkat dari kota A ke kota C melalui B kemudian kembali lagi ke A juga melalui B. Jika saat kembali dari C ke A, ia tidak mau menggunakan bus yang sama, maka banyak cara perjalanan orang tersebut adalah ….;12;36;72;96;;c;Banyaknya rute = 4 x 3 x 2 x 3 = 72
+Banyak garis yang dapat dibuat dari 8 titik yang tersedia, dengan tidak ada 3 titik yang segaris adalah ….;336.;168.;56.;28.;;d;"{ _{ n }{ c }_{ r } }=n!/(n-r)!.r! ; { _{ 8 }P_{ 2 } }"
+Dalam kantong I terdapat 5 kelereng merah dan 3 kelereng putih, dalam kantong II terdapat 4 kelereng merah dan 6 kelereng hitam. Dari setiap kantong diambil satu kelereng secara acak. Peluang terambilnya kelereng putih dari kantong I dan kelereng hitam dari kantong II adalah ….;39/40.;9/13.;9/20.;9/40.;;d;P ( A\cap B ) = P(A) x P(B) = 3/8 x 6/10 = 9/40
+A,B,C, dan D akan berfoto secara berdampingan. Peluang A dan B selalu berdampingan adalah …;1/12.;1/3.;1/2.;2/3.;;c;
+Sebuah kotak berisi 5 bola merah, 4 bola biru, dan 3 bola kuning. Dari dalam kotak diambil 3 bola sekaligus secara acak, peluang terambil  2 bola merah dan 1 bola biru adalah ….;2/11.;1/10.;5/36.;1/6.;;a;
+Dalam suatu populasi keluarga dengan tiga orang anak, peluang keluarga tersebut mempunyai paling sedikit dua anak laki – laki adalah ….;1/8.;1/2.;1/3.;3/8.;;b;
+Dua buah dadu dilempar bersama – sama. Peluang munculnya jumlah mata dadu 9 atau 10 adalah ….;5/36.;7/36.;8/36.;9/36.;;b;
+Sebuah dompet berisi uang logam, 5 keping lima ratusan dan 2 keping ratusan rupiah. Dompet yang lain berisi uang logam 1 keping lima ratusan dan 3 keping ratusan rupiah. Jika sebuah uang logam diambil secara acak dari salah satu dompet, peluang untuk mendapatkan uang logam ratusan rupiah adalah ….;3/56.;6/28.;8/28.;30/56.;;b;
+Suatu kelas terdiri dari 40 orang. Peluang seorang siswa lulus tes matematika adalah 0,4. Peluang seorang siswa lulus fisika adalah 0,2. Banyaknya siswa yang lulus tes matematika atau fisika adalah … orang.;24;6;14;32;;a;
+Dari sekelompok orang, diketahui 10 orang menyukai partai A, 15 orang menyukai partai B, dan 3 orang tidak menyukai kedua partai tersebut. Berapa jumlah orang yang disurvei jika ada 2 orang yang menyukai kedua partai tersebut?;25;27;26;28;;c;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
