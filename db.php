@@ -1,12 +1,13 @@
 <?php
-    $db = new PDO("mysql:host=localhost;dbname=u236905158_app", 'u236905158_app', 'Bondangagah23');
-    $url = "http://samiskpp.com";
+    $db = new PDO("mysql:host=localhost;dbname=u236905158_app", 'root', '');
+    $url = "http://localhost/samiskpp";
     $dataCook = $_COOKIE['id'];
     // start data akun
     $queryAkun = "SELECT * FROM user WHERE id = $dataCook";
     $stmt = $db->prepare($queryAkun);
     $stmt->execute();
     $rowAkun = $stmt->fetch(PDO::FETCH_ASSOC);
+    $kodeSatker = $rowAkun['userid'];
     // end data akkun
 
     $queryRead = "SELECT * FROM unduh WHERE dibaca_user = 'belum' AND id_user='$dataCook'";
@@ -20,6 +21,14 @@
     }else{
         $pesanRead = "Kamu tidak memiliki pesan";
     }
+
+    $queryReadModal = "SELECT * FROM pesan WHERE terbaca='0' AND kode='$kodeSatker'";
+    $stmtReadModal = $db->prepare($queryReadModal);
+    $stmtReadModal->execute();
+    
+    $countReadModal = $stmtReadModal->rowCount();
+    $pesanModal = $stmtReadModal->fetch(PDO::FETCH_ASSOC);
+    
     $header = " 
     <html lang='en'>
     <head>

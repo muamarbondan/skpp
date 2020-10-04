@@ -1,5 +1,5 @@
 <?php
-    $db = new PDO("mysql:host=localhost;dbname=u236905158_app", 'u236905158_app', 'Bondangagah23');
+    $db = new PDO("mysql:host=localhost;dbname=u236905158_app", 'root', '');
     $url = "http://home.saestu";
     $header = " 
     <html lang='en'>

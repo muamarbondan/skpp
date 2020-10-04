@@ -1,6 +1,6 @@
 <?php
-    $db = new PDO("mysql:host=localhost;dbname=u236905158_app", 'u236905158_app', 'Bondangagah23');
-    $url = "http://samiskpp.com/adm";
+    $db = new PDO("mysql:host=localhost;dbname=u236905158_app", 'root', '');
+    $url = "http://localhost/samiskpp/adm";
     $queryRead = "SELECT * FROM unggah WHERE dibaca_admin = 'belum'";
     $stmtRead = $db->prepare($queryRead);
     $stmtRead->execute();

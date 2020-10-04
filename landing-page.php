@@ -103,10 +103,38 @@
     <!-- /.content -->
 </div>
 <!-- /.content-wrapper -->
+<!-- Modal -->
+<div class="modal fade" id="modalPesan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+    <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Pesan KPPN untuk Satkermu</h5>
+        <button id="tutupModal" type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+        <div class="modal-body">
+        <div class="alert alert-primary" role="alert">
+            <?php echo ucfirst($pesanModal['pesan']) ?>
+        </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" id="tutupModal1" class="btn btn-success">OK</button>
+        </div>
+        </div>
+</div>
+</div>
+<!-- end of modal -->
 <?php
     echo $footer;
 ?>
 <script>
+    $(document).ready(function () {
+        if(<?php echo $countReadModal > 0 ?>){
+            $('#modalPesan').modal('show');
+        }
+    });
+
     $("#simpanUser").click(function (e) { 
         e.preventDefault();
 
@@ -165,6 +193,36 @@
         
         $("#badgeJumlah").hide();
     });
+
+    $('#tutupModal').click(function(e) {
+        e.preventDefault();
+
+        var dataClick = {"terbaca": 1, "kode": <?php echo $kodeSatker ?>};
+
+        $.ajax({
+            type: "post",
+            url: "data-process.php",
+            data: dataClick,
+            success: function() {
+                $('#modalPesan').modal('hide');
+            }
+        });
+    })
+
+    $('#tutupModal1').click(function(e) {
+        e.preventDefault();
+
+        var dataClick = {"terbaca": 1, "kode": <?php echo $kodeSatker ?>};
+
+        $.ajax({
+            type: "post",
+            url: "data-process.php",
+            data: dataClick,
+            success: function() {
+                $('#modalPesan').modal('hide');
+            }
+        });
+    })
 
 </script>
 </body>

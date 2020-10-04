@@ -93,4 +93,12 @@
         $stmt1 = $db->prepare($query1);
         $stmt1->execute();
     }
+
+    if(isset($_POST['terbaca'])){
+        
+        $iduser = $_POST['kode'];
+        $query1 = "UPDATE pesan SET terbaca = '1' WHERE kode = '$iduser'";
+        $stmt1 = $db->prepare($query1);
+        $stmt1->execute();
+    }
 ?>

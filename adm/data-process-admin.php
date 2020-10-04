@@ -113,8 +113,32 @@
         header("location: database?status4=active");
     }
 
+    if(isset($_POST['kodesatker'])) {
+        $kode = $_POST['kodesatker'];
+        $pesan = $_POST['pesansatker'];
+        
+        $queryCheck = "SELECT * FROM pesan WHERE kode = '$kode'";
+        $stmt = $db->prepare($queryCheck);
+        $stmt->execute();
+        $count = $stmt->rowCount();
+
+        if($count == 0) {
+            $query = "INSERT INTO pesan(kode, pesan) VALUES('$kode', '$pesan')";
+            $stmt = $db->prepare($query);
+            $stmt->execute();
+        }else{
+            $queryCheckDelete = "DELETE FROM pesan WHERE kode = '$kode'";
+            $stmtDelete = $db->prepare($queryCheckDelete);
+            $stmtDelete->execute();
+
+            $query = "INSERT INTO pesan(kode, pesan) VALUES('$kode', '$pesan')";
+            $stmtInsert = $db->prepare($query);
+            $stmtInsert->execute();
+        }
+    }
+
     if(isset($_POST["importData"])) {
-        $koneksi = mysqli_connect("localhost","u236905158_app","Bondangagah23","u236905158_app");
+        $koneksi = mysqli_connect("localhost","root","","u236905158_app");
         require('spreadsheet-reader-master/php-excel-reader/excel_reader2.php');
         require('spreadsheet-reader-master/SpreadsheetReader.php');
         
